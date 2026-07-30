@@ -174,6 +174,7 @@ A skill isn't just a single `skill.md` file. The folder around it can carry othe
 The takeaway: keep `skill.md` itself lean. Push the heavy material, the long explanations and the executable scripts, into side files. The lean file describes what to do; the side files hold the depth and the tools.
 
 ### Which instruction surface owns which rule
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/b7b9835d-2abc-4d7b-b26f-e0a2ecfe2903" />
 By now you've got three places to put instructions, and it's easy to mix them up. Here's a quick way to keep them straight.
 
 Conventions that apply all the time, things like naming rules or where files go, belong in your `CLAUDE.md` file. Procedures and reference material tied to a particular kind of task belong in a skill.
@@ -185,6 +186,6 @@ A `skill` is a folder with a `skill.md` inside it: a name, a description that tr
 
 Start with verification. Build the skill, check it into your project's `.claude/skills`, and now the whole team inherits the same move. Everyone's work gets checked the same way, automatically, without anyone having to remember to ask.
 
-<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/b7b9835d-2abc-4d7b-b26f-e0a2ecfe2903" />
+
 
 
