@@ -196,7 +196,7 @@ You've already met a few of these modes. Every time you hit shift-tab, you cycle
 Here's the full set. Each mode draws a different line between what runs freely and what needs your sign-off.
 
 - **Manual** reads only, without prompting. Everything else asks first.
-- **Accept** edits runs reads, file edits, and common file system bash commands without asking. This is for iterating on code that you review after the fact.
+- **Accept edits** runs reads, file edits, and common file system bash commands without asking. This is for iterating on code that you review after the fact.
 - **Plan** reads only. It researches and proposes changes without editing anything.
 - **Auto** accepts everything, with a separate classifier model reviewing each action before it runs.
 - **Don't ask** allows only pre-approved tools. Everything else is auto-denied with no prompt.
