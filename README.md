@@ -250,7 +250,7 @@ Here's how they sit in the loop. A session starts, prompts come in, tools get ca
 The ones worth knowing:
 - **PreToolUse** fires before a tool call. This is your enforcement primitive. It's the one that can stop something before it happens.
 - **PostToolUse** fires after a successful tool call. This is usually where auto-formatting or an auto-lint goes.
-- **Stop** fires when Claude wants to end its turn. You can refuse and say "no, you're not done yet" if some condition isn't met. There's a matching SubagentStop for when a sub-agent finishes.
+- **Stop** fires when Claude wants to end its turn. You can refuse and say "no, you're not done yet" if some condition isn't met. There's a matching **SubagentStop** for when a sub-agent finishes.
 - **PreCompact** and **PostCompact** fire before and after compaction.
 - **InstructionsLoaded** fires when a CLAUDE.md or rule file loads. Handy for auditing what actually made it into context.
 - **SessionStart** fires at the start and primes the environment. Use the `startup` source if you only want it on fresh starts.
